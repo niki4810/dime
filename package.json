@@ -1,0 +1,50 @@
+{
+  "name": "dime",
+  "version": "1.0.0",
+  "description": "A simple finance manager app",
+  "main": "index.js",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "dayjs": "^1.6.9",
+    "flat": "^4.0.0",
+    "mobile-detect": "^1.4.2",
+    "natsort": "^1.0.6",
+    "ramda": "^0.25.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-intl": "^2.4.0",
+    "react-jss": "^8.5.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-transition-group": "^2.4.0",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "victory": "^0.27.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "deploy": "npm run build && netlify deploy"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.4.7",
+    "docz": "^0.2.6",
+    "docz-plugin-babel6": "^0.2.6",
+    "netlify-cli": "^1.2.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niki4810/dime.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niki4810/dime/issues"
+  },
+  "homepage": "https://github.com/niki4810/dime#readme"
+}
