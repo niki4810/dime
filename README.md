@@ -8,6 +8,7 @@ A simple finance management app.
 - `dime` app lets your record your daily spending activity by category and show's you a neat summary of your spending status per month. I personally use this app to see how much I spend each month and limit my spending when I am reaching a treshold :).
 - `dime` also has a chart view that shows spending by category.
 - This app is built using `react`, `redux`, `react-router v4`, `react-jss`, `storybook`, `victory-charting`. (planning to use `redux-sagas` shortly).
+- This app uses firebase for storing data. If you plan to use it, you can create your own firebase instance and add the url in`src/config.js`
 - NOTE: I created this app for self learning purpose and there may be
 a cleaner way to approch few things. This app will be evolving, and I plan to make it a PWA shortly.
 - If you feel you can improve anything in the app, please feel free to open a PR.
